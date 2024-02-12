@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: batman;
+    src: url(batman_forever/batman.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(Poppins/Poppins-Medium.ttf);
+}
+
+body{
+    background: radial-gradient(circle at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
+    text-align: center;
+    
+}
+
+.son{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    height: 80px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 80px rgb(244, 226, 29);
+    
+}
+
+   
+
+.div2{
+    position: relative;
+    padding-top: 150px;
+    
+}
+
+h1{
+    color:  black;
+    font-family: poppins;
+    letter-spacing: 0%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.cloud{
+    position: absolute;
+     width: 200px;
+     right: 300px;
+     top: 20px;
+
+    
+}
+
+.cloud1{
+    position: absolute;
+     width: 200px;
+}
+
+p
+{
+    font-family: poppins;
+
+}
+
+.moutain{
+    position: absolute;
+    height: 100%;
+    width: 600px;
+}
